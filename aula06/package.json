@@ -1,0 +1,19 @@
+{
+  "name": "aula06",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/Index.ts",
+    "start": "node dist/Index.js",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "ts-node": "^10.9.2",
+    "uuid": "^11.0.3"
+  }
+}
